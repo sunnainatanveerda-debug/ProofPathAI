@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Demo example — not based on your inputs | ProofPath AI{% endblock %}
+
+{% block content %}
+  <section class="form-section sample-report" aria-labelledby="sample-title">
+    <p class="eyebrow">Static sample report</p>
+    <h1 id="sample-title" class="sample-title">Demo example — not based on your inputs.</h1>
+    <p class="hero-description sample-intro">{{ report.overview }}</p>
+
+    <div class="sample-role"><span>Example role</span><strong>{{ report.role_title }}</strong></div>
+
+    <section class="sample-section" aria-labelledby="sample-skills-title">
+      <h2 id="sample-skills-title">Skill-by-skill example</h2>
+      <div class="sample-skills">
+        {% for skill in report.skills %}
+          <article class="sample-skill-card">
+            <div class="sample-skill-heading"><h3>{{ skill.name }}</h3><span class="sample-category">{{ skill.category }}</span></div>
+            <p class="sample-requirement">{{ skill.requirement }}</p>
+            <dl>
+              <div><dt>Why it matters</dt><dd>{{ skill.why }}</dd></div>
+              <div><dt>Example or claim</dt><dd>{{ skill.example }}</dd></div>
+              <div><dt>What is missing</dt><dd>{{ skill.missing }}</dd></div>
+              <div><dt>Suggested next step</dt><dd>{{ skill.next_step }}</dd></div>
+            </dl>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="sample-section" aria-labelledby="sample-plan-title">
+      <h2 id="sample-plan-title">Example seven-day portfolio plan</h2>
+      <div class="sample-plan">
+        {% for day in report.plan_days %}
+          <article class="sample-day">
+            <div class="sample-day-number">Day {{ day.day }}</div>
+            <div>
+              <h3>{{ day.task }}</h3>
+              <p><strong>Deliverable:</strong> {{ day.deliverable }}</p>
+              <p><strong>Evidence gap:</strong> {{ day.gap }}</p>
+              <p><strong>Why it helps:</strong> {{ day.why }}</p>
+              <p><strong>Done when:</strong> {{ day.complete }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="sample-section sample-final" aria-labelledby="sample-final-title">
+      <h2 id="sample-final-title">Example final report</h2>
+      <h3>Strengths in the example</h3><p>{{ report.strengths }}</p>
+      <h3>Evidence to build</h3><p>{{ report.missing_evidence }}</p>
+      <h3>Expected portfolio deliverables</h3><p>Project brief, source and cleaned dataset, SQL queries, one-page visual summary, findings note, and README.</p>
+      <h3>Limitations</h3><p>{{ report.limitations }}</p>
+    </section>
+
+    <a class="button button-secondary" href="{{ url_for('home') }}#internship-form">Return to your form</a>
+  </section>
+{% endblock %}
