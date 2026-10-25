@@ -1,0 +1,12 @@
+﻿# Personal learning context
+/devpost/learner-profile.md
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
