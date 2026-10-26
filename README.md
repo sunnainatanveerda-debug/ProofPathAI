@@ -32,49 +32,50 @@ Early-career applicants may know some relevant skills but struggle to demonstrat
 ## Screenshots
 
 ### 1. ProofPath AI — Homepage
-*The main interface introduces ProofPath AI and helps students begin their job-readiness assessment.*
+The main interface introduces ProofPath AI and lets users begin their job-readiness assessment.
 
-![ProofPath AI Homepage](screenshots/ProofPath%20AI.png)
+![ProofPath AI](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/ProofPath%20AI.png)
 
 ### 2. Job Description
-*Users provide the target job description so the application can identify relevant skills and requirements.*
+Users provide the target job description so ProofPath AI can analyze relevant job requirements.
 
-![Job Description](screenshots/Job%20Description.png)
+![Job Description](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Job%20Description.png)
 
 ### 3. Assessment Summary
-*An overview of the assessment results, highlighting how the applicant's provided information relates to the job requirements.*
+An overview of the assessment findings and how the applicant's provided evidence relates to the job requirements.
 
-![Assessment Summary](screenshots/Assessment%20Summmary.png)
+![Assessment Summary](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Assessment%20Summmary.png)
 
 ### 4. Assessment Summary — Page 2
-*Additional assessment findings that help users understand their strengths and areas needing further evidence.*
+Additional assessment findings to help users understand their skills and areas needing stronger evidence.
 
-![Assessment Summary Page 2](screenshots/Assessment%20Summary%20Page%202.png)
+![Assessment Summary Page 2](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Assessment%20Summary%20Page%202.png)
 
 ### 5. Assessment Summary — Page 3
-*Further details from the assessment, supporting a clearer understanding of skills and evidence gaps.*
+Further details from the assessment to support users in identifying areas for improvement.
 
-![Assessment Summary Page 3](screenshots/Assessment%20Summary%20Page%203.png)
+![Assessment Summary Page 3](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Assessment%20Summary%20Page%203.png)
 
 ### 6. Assessment Summary — Page 4
-*The final section of the assessment summary, providing additional context for the applicant's next steps.*
+The final page of the assessment summary, providing further context for the applicant's next steps.
 
-![Assessment Summary Page 4](screenshots/Assessment%20Summary%20Page%204.png)
+![Assessment Summary Page 4](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Assessment%20Summary%20Page%204.png)
 
 ### 7. Seven-Day Portfolio Plan
-*A personalized action plan that turns identified gaps into practical portfolio-building tasks.*
+A structured plan that turns identified skill and evidence gaps into practical portfolio-building tasks.
 
-![Seven-Day Portfolio Plan](screenshots/7-Day%20Protfolio%20Plan.png)
+![Seven-Day Portfolio Plan](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/7-Day%20Protfolio%20Plan.png)
 
 ### 8. Seven-Day Portfolio Plan — Page 2
-*The continuation of the plan, helping users organize their next steps toward demonstrating job-relevant skills.*
+The continuation of the portfolio plan, outlining further tasks to help users demonstrate job-relevant skills.
 
-![Seven-Day Portfolio Plan Page 2](screenshots/7-Day%20Protfolio%20Plan%20Page%202.png)
+![Seven-Day Portfolio Plan Page 2](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/7-Day%20Protfolio%20Plan%20Page%202.png)
 
 ### 9. Final Report
-*The final report brings the assessment and recommended next steps together in a format users can review.*
+The final report presents the assessment and recommended next steps in a format users can review.
 
-![Final Report](screenshots/Final%20Report.png)
+![Final Report](https://github.com/sunnainatanveerda-debug/ProofPathAI/blob/main/Screenshorts/Final%20Report.png)
+
 
 
 ## Technology Stack
